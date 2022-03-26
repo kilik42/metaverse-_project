@@ -36,5 +36,7 @@ contract Land{
          require(msg.value>=1 ether, message("you need to pay 1 ether to buy a land"));
          uint256 supply = totalSupply;
          buildings[_id-1].owner = msg.sender;
+
+        //  24.26
    }
 }
